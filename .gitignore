@@ -1,0 +1,20 @@
+# 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 敏感配置（含数据库密码与加密密钥）
+config.py
+
+# 旧的本地会话文件（已迁移到 MySQL）
+session/
+
+# IDE
+.idea/
+
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
